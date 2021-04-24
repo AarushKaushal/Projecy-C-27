@@ -64,7 +64,7 @@ function draw() {
   bob4.display();
   bob5.display();
 
-  
+  text("Press the Up Arrow Key to See the Motion !!!",10,10)
  
 }
 
