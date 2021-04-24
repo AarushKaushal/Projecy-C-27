@@ -49,6 +49,10 @@ function keyPressed() {
 function draw() {
   rectMode(CENTER);
   background(230);
+	  fill("red");	
+  text("Press the Up Arrow Key to See the Motion !!!",10,10)
+  textSize(10);
+
   roofObject.display();
 
   rope1.display();
@@ -63,9 +67,6 @@ function draw() {
   bob3.display();
   bob4.display();
   bob5.display();
-  fill("red");	
-  text("Press the Up Arrow Key to See the Motion !!!",10,10)
-  textSize(10);
-}
 
+}
 
