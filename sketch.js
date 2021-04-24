@@ -49,8 +49,8 @@ function keyPressed() {
 function draw() {
   rectMode(CENTER);
   background(230);
-	  fill("red");	
-  text("Press the Up Arrow Key to See the Motion !!!",10,10)
+  fill("red");	
+  text("Press the Up Arrow Key to See the Motion !!!",100,100)
   textSize(10);
 
   roofObject.display();
