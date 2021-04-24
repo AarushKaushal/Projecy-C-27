@@ -51,7 +51,7 @@ function draw() {
   background(230);
   fill("red");	
   text("Press the Up Arrow Key to See the Motion !!!",200,200)
-  textSize(10);
+  textSize(100);
 
   roofObject.display();
 
